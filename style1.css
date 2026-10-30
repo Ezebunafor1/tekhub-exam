@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+
+    /* background-color: black; */
+}
+main{
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    margin: 60px auto 0px;
+    background-color: black;
+    height: auto;
+}
+aside{
+    width: 20%;
+    height: 500px;
+    background-color: rgb(74, 59, 59);
+}
+
+.nav-section{
+    display: flex;
+justify-content: space-between;
+color: white;
+padding: 20px;
+}
+.nav-section div h1 img{
+width: 2%;
+height: 20px;
+
+letter-spacing: 5px;
+}
+.humber{
+    display: flex;
+    background-color: none;
+
+    
+    
+} 
+. 
+.hamber-btn1{
+    display: none;
+    background-color:black ;
+    border: none;
+}
+
+.hamber-btn1 span{
+    width: 30px;
+    border: none;
+    background: none;
+    display: block;
+    background: rgb(17, 3, 3);
+    height: 3px;
+    margin: 3px;
+    
+}
+.quote {
+    border: 1px solid red;
+    border-radius: 25px;
+    background-color: red;
+    list-style: none;
+    padding: 15px;
+    
+}
+.quote a{
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+.cap{
+    color: white;
+    padding: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   
+}
+.image{
+    width: 20%;
+    height: 300px;
+    background-image: url(uptime-icon.svg), url(uptime-icon.svg);
+    background-position: right, left;
+    background-repeat: no-repeat;
+    background-size: 50%, 50%;
+    
+}
+.cup {
+    display: flex;
+    justify-content:center ;
+}
+.cap span{
+    color:rgb(221, 66, 73) ;
+}
+.cap p{
+    font-size: 10px;
+    color: rgb(197, 208, 218);
+}
+hr{
+    margin: 20px;
+    height: 2px;
+    width: 80px;
+    background-color: red;
+}
+.cap button{
+      border: 1px solid red;
+    border-radius: 25px;
+    background-color: red;
+    list-style: none;
+    padding: 13px;
+}
+.cap button a{
+    text-decoration: none;
+    color: white;
+}
+.want{
+    color: white;
+    background-color: rgb(4, 4, 61);
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    margin: 0 60px ;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.want span{
+    color: rgb(163, 148, 12);
+}
+.want button {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+}
+.website-image{
+    width: 30%;
+    height: 10%;
+    padding-bottom: 35%;
+}
+.website{
+    background-color: rgb(59, 78, 221);
+    width: 100%;
+    margin: 0 auto 30px ;
+    padding: 20px;
+}
+.website h2{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.website-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+.website-container p{
+    color: white;
+    padding: 20px;
+}
+.website-container span{
+    color: rgb(155, 220, 33);
+    padding: 20px;
+}
+.website-container span h3{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    background: black;
+    padding: 20px;
+}
+.website-container h3{
+    color: white;
+    padding: 20px;
+}
+.website-container hr{
+    background-color: brown;
+    border: none;
+    width: 40px;
+}
+.website-container button{
+    color: black;
+    border: 1px solid white;
+    background: white;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    
+}
+.website-second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+}
+.wade-logo{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.wade-logo img{
+    width: 100%;
+    height: 70%;
+
+}
+.wade-logo h2{
+    font-size: 40px;
+    letter-spacing: 10px;
+    align-content: center;
+text-align: center;
+margin-top: 50px;
+}
+.company{
+    text-align: end;
+    padding-right: 40px;
+    font-size: 30px;
+
+    color: #dbbfbf;
+}
+.Produce{
+    color: white;
+
+}
+.Results{
+    text-align: center;
+    padding: 20px;
+}
+.Results h2{
+    font-size: 40px;
+}
+.Results span hr{
+    display: block;
+    border: none;
+    background-color: rgb(222, 66, 9);
+    margin: 30px auto 30px;
+}
+.Produce-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    gap: 20px;
+    
+}
+.cards{
+    background-color: blueviolet;
+    width: 80%;
+    
+}
+
+.first3{
+    height: 100%;
+    background-image:linear-gradient(rgba(0, 0, 100, 0.5)),url(zest.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.card-first img{
+    display: block;
+    width: 90%;
+    height: 90%;
+    border-radius: 25%;
+
+}
+.card-second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.card-second button{
+    background-color: rgb(209, 118, 6);
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+}
+
+.ready{
+    display: flex;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.ready h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.ready span{
+    color: rgb(212, 123, 7);
+}
+.ready p{
+    font-size: 20px;
+}
+.ready button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color:rgb(212, 123, 7) ;
+    margin-top: 20px;
+    border: none;
+}
+.ready-image img{
+    width: 100%;
+    height: auto;
+   
+}
+.footer{
+    color: white;
+    padding: 20px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.footer h2{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.footer strong{
+    color: rgb(244, 122, 9);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.footer-left p{
+    margin-top: 20px;
+    line-height: 4px;
+    font-size: 20px;
+}
+
+.footer-left img{
+width: 20px;
+height: 20px;
+}
+.footer-nav{
+    display: flex;
+     color: #dbbfbf;
+     align-items: center;
+     margin-top: 20px;
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color: #dbbfbf;
+}
+.footer-nav ul{
+display: flex;
+list-style: none;
+gap: 10px;
+}
+.footer-image img{
+    width: 300px;
+    height: auto;
+
+}
+.floating-menu{
+    
+        position: fixed;
+        margin-left: auto;
+        right: 60px;
+        bottom: 25px;
+        width: 15%;
+        background-color: rgb(85, 85, 222);
+        border-radius: 10px;
+        overflow:hidden;
+        box-shadow:0 10px 30px rgba(0, 0, 0, 0.4) ;
+}
+.floating-menu a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+
